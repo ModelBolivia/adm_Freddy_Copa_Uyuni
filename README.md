@@ -1,1 +1,0 @@
-# adm_Freddy_Copa_Uyuni
