@@ -1,555 +1,658 @@
-[2024-10-22 01:28:23] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
-[2024-10-22 01:28:23] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, transfer_files_locally, wrapup
-[2024-10-22 01:28:23] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
-[2024-10-22 01:28:27] [class-ss-archive-creation-job.php:136] Current task: setup
-[2024-10-22 01:28:27] [class-ss-archive-creation-job.php:153] Performing task: setup
-[2024-10-22 01:28:27] [class-ss-task.php:44] Status message: [setup] Setting up
-[2024-10-22 01:28:29] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729560503\
-[2024-10-22 01:28:29] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/adm_Freddy_Copa_Uyuni/
-[2024-10-22 01:28:29] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
-[2024-10-22 01:28:29] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
-[2024-10-22 01:28:29] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
-[2024-10-22 01:28:29] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
-[2024-10-22 01:28:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/
-[2024-10-22 01:28:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
-[2024-10-22 01:28:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-10-22 01:28:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6716ffbdbf161-EYRgzw.tmp
-[2024-10-22 01:28:29] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/?simply_static_page=74
-[2024-10-22 01:28:29] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/?simply_static_page=74
-[2024-10-22 01:28:33] [class-ss-url-fetcher.php:103] Filesize: 58759 bytes
-[2024-10-22 01:28:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
-[2024-10-22 01:28:33] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
-[2024-10-22 01:28:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6716ffbdbf161-EYRgzw.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729560503/index.html
-[2024-10-22 01:28:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-10-22 01:28:34] [class-ss-fetch-urls-task.php:159] Adding 31 URLs to the queue
-[2024-10-22 01:28:35] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-10-22 01:28:35] [class-ss-page.php:119] Checking Content Identical:c13dd0b70c72fecb467ffdf9fe353df417498ed5===. Value: FALSE
-[2024-10-22 01:28:35] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
-[2024-10-22 01:28:35] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
-[2024-10-22 01:28:35] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
-[2024-10-22 01:28:35] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
-[2024-10-22 01:28:35] [class-ss-fetch-urls-task.php:69] Total pages: 31; Pages remaining: 30
-[2024-10-22 01:28:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni
-[2024-10-22 01:28:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 31
-[2024-10-22 01:28:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-10-22 01:28:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc352ea6-HwHRCk.tmp
-[2024-10-22 01:28:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni?simply_static_page=75
-[2024-10-22 01:28:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni?simply_static_page=75
-[2024-10-22 01:28:35] [class-ss-url-fetcher.php:103] Filesize: 368 bytes
-[2024-10-22 01:28:35] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
-[2024-10-22 01:28:35] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
-[2024-10-22 01:28:35] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/adm_Freddy_Copa_Uyuni/
-[2024-10-22 01:28:35] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
-[2024-10-22 01:28:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/principal/
-[2024-10-22 01:28:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 31
-[2024-10-22 01:28:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-10-22 01:28:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc37320f-x7IcyL.tmp
-[2024-10-22 01:28:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/principal/?simply_static_page=76
-[2024-10-22 01:28:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/principal/?simply_static_page=76
-[2024-10-22 01:28:35] [class-ss-url-fetcher.php:103] Filesize: 147163 bytes
-[2024-10-22 01:28:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
-[2024-10-22 01:28:35] [class-ss-url-fetcher.php:233] New filename for static page: /principal/index.html
-[2024-10-22 01:28:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc37320f-x7IcyL.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729560503/principal/index.html
-[2024-10-22 01:28:35] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-10-22 01:28:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-10-22 01:28:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-10-22 01:28:36] [class-ss-page.php:119] Checking Content Identical:c9f135546483465e7c88762d1b0c80c82c3001a6===. Value: FALSE
-[2024-10-22 01:28:36] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/2024/10/22/hola-mundo/
-[2024-10-22 01:28:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 31
-[2024-10-22 01:28:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-10-22 01:28:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc49e927-7bEbta.tmp
-[2024-10-22 01:28:36] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/2024/10/22/hola-mundo/?simply_static_page=77
-[2024-10-22 01:28:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/2024/10/22/hola-mundo/?simply_static_page=77
-[2024-10-22 01:28:36] [class-ss-url-fetcher.php:103] Filesize: 57115 bytes
-[2024-10-22 01:28:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
-[2024-10-22 01:28:36] [class-ss-url-fetcher.php:233] New filename for static page: /2024/10/22/hola-mundo/index.html
-[2024-10-22 01:28:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc49e927-7bEbta.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729560503/2024/10/22/hola-mundo/index.html
-[2024-10-22 01:28:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-10-22 01:28:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-10-22 01:28:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-10-22 01:28:37] [class-ss-page.php:119] Checking Content Identical:31452b138840e0a30269270f0b45bf99e2f69c30===. Value: FALSE
-[2024-10-22 01:28:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-content/uploads/2024/10/FB_IMG_1647815032337.jpg
-[2024-10-22 01:28:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 31
-[2024-10-22 01:28:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-10-22 01:28:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc54d5d7-AyuUQ5.tmp
-[2024-10-22 01:28:37] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-content/uploads/2024/10/FB_IMG_1647815032337.jpg?simply_static_page=78
-[2024-10-22 01:28:37] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-content/uploads/2024/10/FB_IMG_1647815032337.jpg?simply_static_page=78
-[2024-10-22 01:28:37] [class-ss-url-fetcher.php:103] Filesize: 18736 bytes
-[2024-10-22 01:28:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
-[2024-10-22 01:28:37] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/FB_IMG_1647815032337.jpg
-[2024-10-22 01:28:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc54d5d7-AyuUQ5.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729560503/wp-content/uploads/2024/10/FB_IMG_1647815032337.jpg
-[2024-10-22 01:28:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-10-22 01:28:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-10-22 01:28:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-10-22 01:28:37] [class-ss-page.php:119] Checking Content Identical:f0a74bc946bf54ae9af6a21c543b92674ff0ee6c===. Value: FALSE
-[2024-10-22 01:28:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-content/uploads/2024/10/PSX_20231105_105418.png
-[2024-10-22 01:28:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 31
-[2024-10-22 01:28:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-10-22 01:28:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc576b01-VynPJU.tmp
-[2024-10-22 01:28:37] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-content/uploads/2024/10/PSX_20231105_105418.png?simply_static_page=79
-[2024-10-22 01:28:37] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-content/uploads/2024/10/PSX_20231105_105418.png?simply_static_page=79
-[2024-10-22 01:28:37] [class-ss-url-fetcher.php:103] Filesize: 330065 bytes
-[2024-10-22 01:28:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
-[2024-10-22 01:28:37] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/PSX_20231105_105418.png
-[2024-10-22 01:28:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc576b01-VynPJU.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729560503/wp-content/uploads/2024/10/PSX_20231105_105418.png
-[2024-10-22 01:28:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-10-22 01:28:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-10-22 01:28:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-10-22 01:28:37] [class-ss-page.php:119] Checking Content Identical:53a8bfd75f691a9cfeefaaef5737c1fc3c9f052f===. Value: FALSE
-[2024-10-22 01:28:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/jquery/jquery.min.js
-[2024-10-22 01:28:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 31
-[2024-10-22 01:28:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-10-22 01:28:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc5ab0ef-QoGD7C.tmp
-[2024-10-22 01:28:37] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/jquery/jquery.min.js?simply_static_page=80
-[2024-10-22 01:28:37] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/jquery/jquery.min.js?simply_static_page=80
-[2024-10-22 01:28:37] [class-ss-url-fetcher.php:103] Filesize: 87553 bytes
-[2024-10-22 01:28:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2024-10-22 01:28:37] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery.min.js
-[2024-10-22 01:28:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc5ab0ef-QoGD7C.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729560503/wp-includes/js/jquery/jquery.min.js
-[2024-10-22 01:28:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-10-22 01:28:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-10-22 01:28:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-10-22 01:28:37] [class-ss-page.php:119] Checking Content Identical:79cd3587d565afe290076a8d36c31c305a573d18===. Value: FALSE
-[2024-10-22 01:28:37] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/jquery/jquery-migrate.min.js
-[2024-10-22 01:28:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 31
-[2024-10-22 01:28:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-10-22 01:28:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc5dae17-4WORx2.tmp
-[2024-10-22 01:28:37] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=81
-[2024-10-22 01:28:37] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=81
-[2024-10-22 01:28:37] [class-ss-url-fetcher.php:103] Filesize: 13577 bytes
-[2024-10-22 01:28:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2024-10-22 01:28:37] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery-migrate.min.js
-[2024-10-22 01:28:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc5dae17-4WORx2.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729560503/wp-includes/js/jquery/jquery-migrate.min.js
-[2024-10-22 01:28:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-10-22 01:28:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-10-22 01:28:38] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-10-22 01:28:38] [class-ss-page.php:119] Checking Content Identical:3ad0c10e501ac2a9bfa18f9cd7e700219b378738===. Value: FALSE
-[2024-10-22 01:28:38] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-content/plugins/gutenify/core/assets/js/lib/swiper-bundle.js
-[2024-10-22 01:28:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 31
-[2024-10-22 01:28:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-10-22 01:28:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc60d369-4uqUAS.tmp
-[2024-10-22 01:28:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-content/plugins/gutenify/core/assets/js/lib/swiper-bundle.js?simply_static_page=82
-[2024-10-22 01:28:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-content/plugins/gutenify/core/assets/js/lib/swiper-bundle.js?simply_static_page=82
-[2024-10-22 01:28:38] [class-ss-url-fetcher.php:103] Filesize: 146374 bytes
-[2024-10-22 01:28:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2024-10-22 01:28:38] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/js/lib/swiper-bundle.js
-[2024-10-22 01:28:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc60d369-4uqUAS.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729560503/wp-content/plugins/gutenify/core/assets/js/lib/swiper-bundle.js
-[2024-10-22 01:28:38] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-10-22 01:28:38] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-10-22 01:28:38] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-10-22 01:28:38] [class-ss-page.php:119] Checking Content Identical:7996d63abbbbe06e4ccbfdcfcc1979b4ef224eb6===. Value: FALSE
-[2024-10-22 01:28:38] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-content/plugins/gutenify/core/assets/js/lib/scrollmagic/ScrollMagic.min.js
-[2024-10-22 01:28:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 31
-[2024-10-22 01:28:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-10-22 01:28:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc63fd3b-XNeh6L.tmp
-[2024-10-22 01:28:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-content/plugins/gutenify/core/assets/js/lib/scrollmagic/ScrollMagic.min.js?simply_static_page=83
-[2024-10-22 01:28:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-content/plugins/gutenify/core/assets/js/lib/scrollmagic/ScrollMagic.min.js?simply_static_page=83
-[2024-10-22 01:28:38] [class-ss-url-fetcher.php:103] Filesize: 17388 bytes
-[2024-10-22 01:28:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2024-10-22 01:28:38] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/js/lib/scrollmagic/ScrollMagic.min.js
-[2024-10-22 01:28:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc63fd3b-XNeh6L.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729560503/wp-content/plugins/gutenify/core/assets/js/lib/scrollmagic/ScrollMagic.min.js
-[2024-10-22 01:28:38] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-10-22 01:28:38] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-10-22 01:28:38] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-10-22 01:28:38] [class-ss-page.php:119] Checking Content Identical:41cd89ef41484b59d50b766f5c8755c9a9084018===. Value: FALSE
-[2024-10-22 01:28:38] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/blocks/navigation/view.min.js
-[2024-10-22 01:28:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 31
-[2024-10-22 01:28:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-10-22 01:28:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc66830a-0XA7Is.tmp
-[2024-10-22 01:28:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/blocks/navigation/view.min.js?simply_static_page=84
-[2024-10-22 01:28:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/blocks/navigation/view.min.js?simply_static_page=84
-[2024-10-22 01:28:38] [class-ss-url-fetcher.php:103] Filesize: 3300 bytes
-[2024-10-22 01:28:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2024-10-22 01:28:38] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/view.min.js
-[2024-10-22 01:28:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc66830a-0XA7Is.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729560503/wp-includes/blocks/navigation/view.min.js
-[2024-10-22 01:28:38] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-10-22 01:28:38] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-10-22 01:28:38] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-10-22 01:28:38] [class-ss-page.php:119] Checking Content Identical:b27ba805d3b9118edfd523f01fd6e84229d52ffd===. Value: FALSE
-[2024-10-22 01:28:38] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js
-[2024-10-22 01:28:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 31
-[2024-10-22 01:28:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-10-22 01:28:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc68efc1-spGcLh.tmp
-[2024-10-22 01:28:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?simply_static_page=85
-[2024-10-22 01:28:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?simply_static_page=85
-[2024-10-22 01:28:38] [class-ss-url-fetcher.php:103] Filesize: 8171 bytes
-[2024-10-22 01:28:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2024-10-22 01:28:38] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/vendor/wp-polyfill-inert.min.js
-[2024-10-22 01:28:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc68efc1-spGcLh.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729560503/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js
-[2024-10-22 01:28:38] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-10-22 01:28:38] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-10-22 01:28:38] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-10-22 01:28:38] [class-ss-page.php:119] Checking Content Identical:60c8514c57a5db2980c4b046b0dd479bd427357b===. Value: FALSE
-[2024-10-22 01:28:38] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/dist/vendor/regenerator-runtime.min.js
-[2024-10-22 01:28:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 31
-[2024-10-22 01:28:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-10-22 01:28:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc6b6a3d-iZeekD.tmp
-[2024-10-22 01:28:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/dist/vendor/regenerator-runtime.min.js?simply_static_page=86
-[2024-10-22 01:28:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/dist/vendor/regenerator-runtime.min.js?simply_static_page=86
-[2024-10-22 01:28:38] [class-ss-url-fetcher.php:103] Filesize: 6625 bytes
-[2024-10-22 01:28:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2024-10-22 01:28:38] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/vendor/regenerator-runtime.min.js
-[2024-10-22 01:28:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc6b6a3d-iZeekD.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729560503/wp-includes/js/dist/vendor/regenerator-runtime.min.js
-[2024-10-22 01:28:38] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-10-22 01:28:38] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-10-22 01:28:38] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-10-22 01:28:38] [class-ss-page.php:119] Checking Content Identical:0d792b33f12a48ee8aaaf2560a63a5682470645b===. Value: FALSE
-[2024-10-22 01:28:38] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/dist/vendor/wp-polyfill.min.js
-[2024-10-22 01:28:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 31
-[2024-10-22 01:28:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-10-22 01:28:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc6df5a5-wsszU2.tmp
-[2024-10-22 01:28:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/dist/vendor/wp-polyfill.min.js?simply_static_page=87
-[2024-10-22 01:28:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/dist/vendor/wp-polyfill.min.js?simply_static_page=87
-[2024-10-22 01:28:38] [class-ss-url-fetcher.php:103] Filesize: 38590 bytes
-[2024-10-22 01:28:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2024-10-22 01:28:38] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/vendor/wp-polyfill.min.js
-[2024-10-22 01:28:38] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc6df5a5-wsszU2.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729560503/wp-includes/js/dist/vendor/wp-polyfill.min.js
-[2024-10-22 01:28:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-10-22 01:28:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-10-22 01:28:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-10-22 01:28:39] [class-ss-page.php:119] Checking Content Identical:eab40ab4e77f92f2fb17684aaf44b579a51b8034===. Value: FALSE
-[2024-10-22 01:28:39] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/dist/dom-ready.min.js
-[2024-10-22 01:28:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 31
-[2024-10-22 01:28:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-10-22 01:28:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc70b740-nDup4H.tmp
-[2024-10-22 01:28:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/dist/dom-ready.min.js?simply_static_page=88
-[2024-10-22 01:28:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/dist/dom-ready.min.js?simply_static_page=88
-[2024-10-22 01:28:39] [class-ss-url-fetcher.php:103] Filesize: 457 bytes
-[2024-10-22 01:28:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2024-10-22 01:28:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/dom-ready.min.js
-[2024-10-22 01:28:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc70b740-nDup4H.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729560503/wp-includes/js/dist/dom-ready.min.js
-[2024-10-22 01:28:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-10-22 01:28:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-10-22 01:28:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-10-22 01:28:39] [class-ss-page.php:119] Checking Content Identical:3c03312717fb495c051d02a3d27ec0d8abc2557d===. Value: FALSE
-[2024-10-22 01:28:39] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/dist/hooks.min.js
-[2024-10-22 01:28:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 31
-[2024-10-22 01:28:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-10-22 01:28:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc72decf-hH03K9.tmp
-[2024-10-22 01:28:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/dist/hooks.min.js?simply_static_page=89
-[2024-10-22 01:28:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/dist/hooks.min.js?simply_static_page=89
-[2024-10-22 01:28:39] [class-ss-url-fetcher.php:103] Filesize: 4307 bytes
-[2024-10-22 01:28:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2024-10-22 01:28:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/hooks.min.js
-[2024-10-22 01:28:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc72decf-hH03K9.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729560503/wp-includes/js/dist/hooks.min.js
-[2024-10-22 01:28:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-10-22 01:28:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-10-22 01:28:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-10-22 01:28:39] [class-ss-page.php:119] Checking Content Identical:ee6aa3d65b474309376468b24bb6f829a4514809===. Value: FALSE
-[2024-10-22 01:28:39] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/dist/i18n.min.js
-[2024-10-22 01:28:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 31
-[2024-10-22 01:28:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-10-22 01:28:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc7517c2-pJ60Xa.tmp
-[2024-10-22 01:28:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/dist/i18n.min.js?simply_static_page=90
-[2024-10-22 01:28:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/dist/i18n.min.js?simply_static_page=90
-[2024-10-22 01:28:39] [class-ss-url-fetcher.php:103] Filesize: 9141 bytes
-[2024-10-22 01:28:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2024-10-22 01:28:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/i18n.min.js
-[2024-10-22 01:28:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc7517c2-pJ60Xa.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729560503/wp-includes/js/dist/i18n.min.js
-[2024-10-22 01:28:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-10-22 01:28:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-10-22 01:28:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-10-22 01:28:39] [class-ss-page.php:119] Checking Content Identical:9997a1745f48bdd233dbe9bd8164daa53eba105b===. Value: FALSE
-[2024-10-22 01:28:39] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.js
-[2024-10-22 01:28:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 31
-[2024-10-22 01:28:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-10-22 01:28:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc771d86-CqlmSz.tmp
-[2024-10-22 01:28:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.js?simply_static_page=91
-[2024-10-22 01:28:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.js?simply_static_page=91
-[2024-10-22 01:28:39] [class-ss-url-fetcher.php:103] Filesize: 3175 bytes
-[2024-10-22 01:28:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2024-10-22 01:28:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.js
-[2024-10-22 01:28:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc771d86-CqlmSz.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729560503/wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.js
-[2024-10-22 01:28:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-10-22 01:28:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-10-22 01:28:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-10-22 01:28:39] [class-ss-page.php:119] Checking Content Identical:3d01c6b78e40a9a7c54d2b224e3a47a2029f5e89===. Value: FALSE
-[2024-10-22 01:28:39] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-content/plugins/gutenify/core/dist/non-blocks/common-scripts/slider/index.js
-[2024-10-22 01:28:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 31
-[2024-10-22 01:28:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-10-22 01:28:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc7979f3-OdaiEG.tmp
-[2024-10-22 01:28:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-content/plugins/gutenify/core/dist/non-blocks/common-scripts/slider/index.js?simply_static_page=92
-[2024-10-22 01:28:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-content/plugins/gutenify/core/dist/non-blocks/common-scripts/slider/index.js?simply_static_page=92
-[2024-10-22 01:28:39] [class-ss-url-fetcher.php:103] Filesize: 2168 bytes
-[2024-10-22 01:28:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2024-10-22 01:28:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/dist/non-blocks/common-scripts/slider/index.js
-[2024-10-22 01:28:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc7979f3-OdaiEG.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729560503/wp-content/plugins/gutenify/core/dist/non-blocks/common-scripts/slider/index.js
-[2024-10-22 01:28:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-10-22 01:28:39] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-10-22 01:28:39] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-10-22 01:28:39] [class-ss-page.php:119] Checking Content Identical:e3b1e4809103a536677d7f469e22585c072a3743===. Value: FALSE
-[2024-10-22 01:28:39] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/feed/
-[2024-10-22 01:28:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 31
-[2024-10-22 01:28:39] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-10-22 01:28:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc7bc943-xc34A8.tmp
-[2024-10-22 01:28:39] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/feed/?simply_static_page=93
-[2024-10-22 01:28:39] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/feed/?simply_static_page=93
-[2024-10-22 01:28:39] [class-ss-url-fetcher.php:103] Filesize: 1044 bytes
-[2024-10-22 01:28:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html;charset=UTF-8
-[2024-10-22 01:28:39] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.html
-[2024-10-22 01:28:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc7bc943-xc34A8.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729560503/feed/index.html
-[2024-10-22 01:28:39] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-10-22 01:28:40] [class-ss-fetch-urls-task.php:159] Adding 3 URLs to the queue
-[2024-10-22 01:28:40] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-10-22 01:28:40] [class-ss-page.php:119] Checking Content Identical:7f8a4f19878e40f49891477f3bb43942e50b5b78===. Value: FALSE
-[2024-10-22 01:28:40] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/comments/feed/
-[2024-10-22 01:28:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 31
-[2024-10-22 01:28:40] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-10-22 01:28:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc81c41a-E7tHGo.tmp
-[2024-10-22 01:28:40] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/comments/feed/?simply_static_page=94
-[2024-10-22 01:28:40] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/comments/feed/?simply_static_page=94
-[2024-10-22 01:28:40] [class-ss-url-fetcher.php:103] Filesize: 1071 bytes
-[2024-10-22 01:28:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html;charset=UTF-8
-[2024-10-22 01:28:40] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.html
-[2024-10-22 01:28:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc81c41a-E7tHGo.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729560503/comments/feed/index.html
-[2024-10-22 01:28:40] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-10-22 01:28:40] [class-ss-fetch-urls-task.php:159] Adding 3 URLs to the queue
-[2024-10-22 01:28:40] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-10-22 01:28:40] [class-ss-page.php:119] Checking Content Identical:ce03f6e530e82fbfa5a6d76a51d0081d7ff36fb4===. Value: FALSE
-[2024-10-22 01:28:40] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/blocks/navigation/style.min.css
-[2024-10-22 01:28:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 31
-[2024-10-22 01:28:40] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-10-22 01:28:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc87826e-JdprAc.tmp
-[2024-10-22 01:28:40] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/blocks/navigation/style.min.css?simply_static_page=95
-[2024-10-22 01:28:40] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/blocks/navigation/style.min.css?simply_static_page=95
-[2024-10-22 01:28:40] [class-ss-url-fetcher.php:103] Filesize: 16484 bytes
-[2024-10-22 01:28:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
-[2024-10-22 01:28:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/style.min.css
-[2024-10-22 01:28:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc87826e-JdprAc.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729560503/wp-includes/blocks/navigation/style.min.css
-[2024-10-22 01:28:40] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-10-22 01:28:40] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-10-22 01:28:40] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-10-22 01:28:40] [class-ss-page.php:119] Checking Content Identical:a75edf5442c196d670e436c2f616ecd595e41d68===. Value: FALSE
-[2024-10-22 01:28:40] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-content/themes/twentytwentytwo/style.css
-[2024-10-22 01:28:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 31
-[2024-10-22 01:28:40] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-10-22 01:28:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc8a61fa-NnuuiR.tmp
-[2024-10-22 01:28:40] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-content/themes/twentytwentytwo/style.css?simply_static_page=96
-[2024-10-22 01:28:40] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-content/themes/twentytwentytwo/style.css?simply_static_page=96
-[2024-10-22 01:28:40] [class-ss-url-fetcher.php:103] Filesize: 5987 bytes
-[2024-10-22 01:28:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
-[2024-10-22 01:28:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentytwo/style.css
-[2024-10-22 01:28:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc8a61fa-NnuuiR.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729560503/wp-content/themes/twentytwentytwo/style.css
-[2024-10-22 01:28:40] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-10-22 01:28:40] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-10-22 01:28:40] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-10-22 01:28:40] [class-ss-page.php:119] Checking Content Identical:f65f7986f08422d278d00e3ea70e6412168c8871===. Value: FALSE
-[2024-10-22 01:28:40] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-content/plugins/gutenify/core/assets/fontawesome/css/all.css
-[2024-10-22 01:28:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 31
-[2024-10-22 01:28:40] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-10-22 01:28:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc8d4648-6JLDJ1.tmp
-[2024-10-22 01:28:40] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-content/plugins/gutenify/core/assets/fontawesome/css/all.css?simply_static_page=97
-[2024-10-22 01:28:40] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-content/plugins/gutenify/core/assets/fontawesome/css/all.css?simply_static_page=97
-[2024-10-22 01:28:40] [class-ss-url-fetcher.php:103] Filesize: 55371 bytes
-[2024-10-22 01:28:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
-[2024-10-22 01:28:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/fontawesome/css/all.css
-[2024-10-22 01:28:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc8d4648-6JLDJ1.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729560503/wp-content/plugins/gutenify/core/assets/fontawesome/css/all.css
-[2024-10-22 01:28:40] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-10-22 01:28:41] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-10-22 01:28:41] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-10-22 01:28:41] [class-ss-page.php:119] Checking Content Identical:33734d427c0e54a9e7b130dd939ea7c531cb3a53===. Value: FALSE
-[2024-10-22 01:28:41] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-content/fonts/1a33f0c506967449d06c1fc2e72370ce.css
-[2024-10-22 01:28:41] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 31
-[2024-10-22 01:28:41] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-10-22 01:28:41] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc918fb1-5KqCIi.tmp
-[2024-10-22 01:28:41] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-content/fonts/1a33f0c506967449d06c1fc2e72370ce.css?simply_static_page=98
-[2024-10-22 01:28:41] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-content/fonts/1a33f0c506967449d06c1fc2e72370ce.css?simply_static_page=98
-[2024-10-22 01:28:41] [class-ss-url-fetcher.php:103] Filesize: 1 bytes
-[2024-10-22 01:28:41] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
-[2024-10-22 01:28:41] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/fonts/1a33f0c506967449d06c1fc2e72370ce.css
-[2024-10-22 01:28:41] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc918fb1-5KqCIi.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729560503/wp-content/fonts/1a33f0c506967449d06c1fc2e72370ce.css
-[2024-10-22 01:28:41] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-10-22 01:28:41] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-10-22 01:28:41] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-10-22 01:28:41] [class-ss-page.php:119] Checking Content Identical:b858cb282617fb0956d960215c8e84d1ccf909c6===. Value: FALSE
-[2024-10-22 01:28:41] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.css
-[2024-10-22 01:28:41] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 31
-[2024-10-22 01:28:41] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-10-22 01:28:41] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc93c88f-34DvuM.tmp
-[2024-10-22 01:28:41] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.css?simply_static_page=99
-[2024-10-22 01:28:41] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.css?simply_static_page=99
-[2024-10-22 01:28:41] [class-ss-url-fetcher.php:103] Filesize: 20338 bytes
-[2024-10-22 01:28:41] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
-[2024-10-22 01:28:41] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.css
-[2024-10-22 01:28:41] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc93c88f-34DvuM.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729560503/wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.css
-[2024-10-22 01:28:41] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-10-22 01:28:41] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-10-22 01:28:41] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-10-22 01:28:41] [class-ss-page.php:119] Checking Content Identical:be3ec737e679ebabdf80221f9107ffb6a5e586fb===. Value: FALSE
-[2024-10-22 01:28:41] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-json/
-[2024-10-22 01:28:41] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 31
-[2024-10-22 01:28:41] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-10-22 01:28:41] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc96d238-60cBRj.tmp
-[2024-10-22 01:28:41] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-json/?simply_static_page=100
-[2024-10-22 01:28:41] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-json/?simply_static_page=100
-[2024-10-22 01:28:41] [class-ss-url-fetcher.php:103] Filesize: 242834 bytes
-[2024-10-22 01:28:41] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
-[2024-10-22 01:28:41] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/index.html
-[2024-10-22 01:28:41] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6716ffc96d238-60cBRj.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729560503/wp-json/index.html
-[2024-10-22 01:28:41] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-10-22 01:28:42] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-10-22 01:28:42] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-10-22 01:28:42] [class-ss-page.php:119] Checking Content Identical:edd4c07ed7f2b3a1a4275bbc84eb926a4cb2ed8a===. Value: FALSE
-[2024-10-22 01:28:42] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/xmlrpc.php
-[2024-10-22 01:28:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 31
-[2024-10-22 01:28:42] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/adm_Freddy_Copa_Uyuni/xmlrpc.php
-[2024-10-22 01:28:42] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
-[2024-10-22 01:28:42] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/dist/interactivity.min.js
-[2024-10-22 01:28:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 31
-[2024-10-22 01:28:42] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-10-22 01:28:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6716ffca767b9-wqeYZu.tmp
-[2024-10-22 01:28:42] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/dist/interactivity.min.js?simply_static_page=102
-[2024-10-22 01:28:42] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/dist/interactivity.min.js?simply_static_page=102
-[2024-10-22 01:28:42] [class-ss-url-fetcher.php:103] Filesize: 35085 bytes
-[2024-10-22 01:28:42] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2024-10-22 01:28:42] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/interactivity.min.js
-[2024-10-22 01:28:42] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6716ffca767b9-wqeYZu.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729560503/wp-includes/js/dist/interactivity.min.js
-[2024-10-22 01:28:42] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-10-22 01:28:42] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-10-22 01:28:42] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-10-22 01:28:42] [class-ss-page.php:119] Checking Content Identical:94d22d48979f46560d1c7ff46978bfd4b67aebec===. Value: FALSE
-[2024-10-22 01:28:42] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2
-[2024-10-22 01:28:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 31
-[2024-10-22 01:28:42] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-10-22 01:28:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6716ffca9d8a5-puEuCw.tmp
-[2024-10-22 01:28:42] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2?simply_static_page=103
-[2024-10-22 01:28:42] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2?simply_static_page=103
-[2024-10-22 01:28:42] [class-ss-url-fetcher.php:103] Filesize: 428448 bytes
-[2024-10-22 01:28:42] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
-[2024-10-22 01:28:42] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2
-[2024-10-22 01:28:42] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6716ffca9d8a5-puEuCw.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729560503/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2
-[2024-10-22 01:28:42] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-10-22 01:28:42] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-10-22 01:28:42] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-10-22 01:28:42] [class-ss-page.php:119] Checking Content Identical:b622e44324ea8789789e812cae242e1f483e9811===. Value: FALSE
-[2024-10-22 01:28:42] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2
-[2024-10-22 01:28:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 31
-[2024-10-22 01:28:42] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-10-22 01:28:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6716ffcad2154-zjpSiD.tmp
-[2024-10-22 01:28:42] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2?simply_static_page=104
-[2024-10-22 01:28:42] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2?simply_static_page=104
-[2024-10-22 01:28:42] [class-ss-url-fetcher.php:103] Filesize: 346840 bytes
-[2024-10-22 01:28:42] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
-[2024-10-22 01:28:43] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2
-[2024-10-22 01:28:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6716ffcad2154-zjpSiD.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729560503/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2
-[2024-10-22 01:28:43] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-10-22 01:28:43] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-10-22 01:28:43] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-10-22 01:28:43] [class-ss-page.php:119] Checking Content Identical:95c3d13946b16dfb07cfa14629a8ae04cc83323d===. Value: FALSE
-[2024-10-22 01:28:43] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 31 pages/files
-[2024-10-22 01:28:43] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
-[2024-10-22 01:28:43] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
-[2024-10-22 01:28:43] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
-[2024-10-22 01:28:43] [class-ss-fetch-urls-task.php:69] Total pages: 34; Pages remaining: 3
-[2024-10-22 01:28:43] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/feed/index.xml
-[2024-10-22 01:28:43] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 34
-[2024-10-22 01:28:43] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-10-22 01:28:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6716ffcb1c09a-H3UmGT.tmp
-[2024-10-22 01:28:43] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/feed/index.xml?simply_static_page=105
-[2024-10-22 01:28:43] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/feed/index.xml?simply_static_page=105
-[2024-10-22 01:28:43] [class-ss-url-fetcher.php:103] Filesize: 2171 bytes
-[2024-10-22 01:28:43] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/xml
-[2024-10-22 01:28:43] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.xml
-[2024-10-22 01:28:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6716ffcb1c09a-H3UmGT.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729560503/feed/index.xml
-[2024-10-22 01:28:43] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-10-22 01:28:43] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-10-22 01:28:43] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-10-22 01:28:43] [class-ss-page.php:119] Checking Content Identical:37277329eb2e78e7e249e8f37e7e6fd158b162ca===. Value: FALSE
-[2024-10-22 01:28:43] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/comments/
-[2024-10-22 01:28:43] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 34
-[2024-10-22 01:28:43] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-10-22 01:28:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6716ffcb3936c-UViHBW.tmp
-[2024-10-22 01:28:43] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/comments/?simply_static_page=106
-[2024-10-22 01:28:43] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/comments/?simply_static_page=106
-[2024-10-22 01:28:43] [class-ss-url-fetcher.php:103] Filesize: 1047 bytes
-[2024-10-22 01:28:43] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html;charset=UTF-8
-[2024-10-22 01:28:43] [class-ss-url-fetcher.php:233] New filename for static page: /comments/index.html
-[2024-10-22 01:28:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6716ffcb3936c-UViHBW.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729560503/comments/index.html
-[2024-10-22 01:28:43] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-10-22 01:28:43] [class-ss-fetch-urls-task.php:159] Adding 3 URLs to the queue
-[2024-10-22 01:28:43] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-10-22 01:28:43] [class-ss-page.php:119] Checking Content Identical:e1f386cecd3e681d1da5ef3371709a047afdc789===. Value: FALSE
-[2024-10-22 01:28:43] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/comments/feed/index.xml
-[2024-10-22 01:28:43] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 34
-[2024-10-22 01:28:43] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-10-22 01:28:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6716ffcbab1bf-znRHpH.tmp
-[2024-10-22 01:28:43] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/comments/feed/index.xml?simply_static_page=107
-[2024-10-22 01:28:43] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/comments/feed/index.xml?simply_static_page=107
-[2024-10-22 01:28:43] [class-ss-url-fetcher.php:103] Filesize: 1832 bytes
-[2024-10-22 01:28:43] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/xml
-[2024-10-22 01:28:43] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.xml
-[2024-10-22 01:28:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6716ffcbab1bf-znRHpH.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729560503/comments/feed/index.xml
-[2024-10-22 01:28:43] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-10-22 01:28:43] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-10-22 01:28:43] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-10-22 01:28:43] [class-ss-page.php:119] Checking Content Identical:19f28c52d23b2832d3f1416e68bdea7f02f44687===. Value: FALSE
-[2024-10-22 01:28:43] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 31 of 34 pages/files
-[2024-10-22 01:28:43] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
-[2024-10-22 01:28:43] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
-[2024-10-22 01:28:43] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
-[2024-10-22 01:28:43] [class-ss-fetch-urls-task.php:69] Total pages: 34; Pages remaining: 0
-[2024-10-22 01:28:43] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 34 of 34 pages/files
-[2024-10-22 01:28:43] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
-[2024-10-22 01:28:43] [class-ss-archive-creation-job.php:136] Current task: generate_404
-[2024-10-22 01:28:43] [class-ss-archive-creation-job.php:153] Performing task: generate_404
-[2024-10-22 01:28:43] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
-[2024-10-22 01:28:43] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6716ffcbdd7e6-VklKuG.tmp
-[2024-10-22 01:28:43] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/1729560524?simply_static_page=0
-[2024-10-22 01:28:43] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/1729560524?simply_static_page=0
-[2024-10-22 01:28:48] [class-ss-url-fetcher.php:103] Filesize: 46076 bytes
-[2024-10-22 01:28:48] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
-[2024-10-22 01:28:48] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
-[2024-10-22 01:28:48] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6716ffcbdd7e6-VklKuG.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729560503\404/index.html
-[2024-10-22 01:28:48] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
-[2024-10-22 01:28:48] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
-[2024-10-22 01:28:48] [class-ss-page.php:119] Checking Content Identical:c4fb3492d2941561ff7459f2ec5c5d9a6b61a95a===. Value: FALSE
-[2024-10-22 01:28:48] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
-[2024-10-22 01:28:48] [class-ss-archive-creation-job.php:175] We've found our next task: transfer_files_locally
-[2024-10-22 01:28:53] [class-ss-archive-creation-job.php:136] Current task: transfer_files_locally
-[2024-10-22 01:28:53] [class-ss-archive-creation-job.php:153] Performing task: transfer_files_locally
-[2024-10-22 01:28:53] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferring 32 of 32 files
-[2024-10-22 01:28:53] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/
-[2024-10-22 01:28:53] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/principal
-[2024-10-22 01:28:53] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/2024/10/22/hola-mundo
-[2024-10-22 01:28:53] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-content/uploads/2024/10
-[2024-10-22 01:28:53] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-content/uploads/2024/10
-[2024-10-22 01:28:53] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-includes/js/jquery
-[2024-10-22 01:28:53] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-includes/js/jquery
-[2024-10-22 01:28:53] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-content/plugins/gutenify/core/assets/js/lib
-[2024-10-22 01:28:53] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-content/plugins/gutenify/core/assets/js/lib/scrollmagic
-[2024-10-22 01:28:53] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-includes/blocks/navigation
-[2024-10-22 01:28:53] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-includes/js/dist/vendor
-[2024-10-22 01:28:53] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-includes/js/dist/vendor
-[2024-10-22 01:28:53] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-includes/js/dist/vendor
-[2024-10-22 01:28:53] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-includes/js/dist
-[2024-10-22 01:28:53] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-includes/js/dist
-[2024-10-22 01:28:53] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-includes/js/dist
-[2024-10-22 01:28:53] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-content/plugins/gutenify/core/dist/non-blocks/frontend
-[2024-10-22 01:28:53] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-content/plugins/gutenify/core/dist/non-blocks/common-scripts/slider
-[2024-10-22 01:28:53] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/feed
-[2024-10-22 01:28:53] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/comments/feed
-[2024-10-22 01:28:53] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-includes/blocks/navigation
-[2024-10-22 01:28:53] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-content/themes/twentytwentytwo
-[2024-10-22 01:28:53] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-content/plugins/gutenify/core/assets/fontawesome/css
-[2024-10-22 01:28:53] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-content/fonts
-[2024-10-22 01:28:53] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-content/plugins/gutenify/core/dist/non-blocks/frontend
-[2024-10-22 01:28:53] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-json
-[2024-10-22 01:28:53] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-includes/js/dist
-[2024-10-22 01:28:53] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro
-[2024-10-22 01:28:53] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro
-[2024-10-22 01:28:53] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/feed
-[2024-10-22 01:28:53] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/comments
-[2024-10-22 01:28:53] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/comments/feed
-[2024-10-22 01:28:53] [class-ss-transfer-files-locally-task.php:73] [Transfer] Total Pages:32. Processed Pages: 32
-[2024-10-22 01:28:53] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 32 of 32 files
-[2024-10-22 01:28:53] [trait-can-process-pages.php:110] Total pages: 32; Pages remaining: 0
-[2024-10-22 01:28:53] [class-ss-transfer-files-locally-task.php:238] Transferring 404 Page
-[2024-10-22 01:28:53] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://modelbolivia.github.io/adm_Freddy_Copa_Uyuni/" target="_blank">https://modelbolivia.github.io/adm_Freddy_Copa_Uyuni/</a>
-[2024-10-22 01:28:53] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
-[2024-10-22 01:28:53] [class-ss-archive-creation-job.php:136] Current task: wrapup
-[2024-10-22 01:28:53] [class-ss-archive-creation-job.php:153] Performing task: wrapup
-[2024-10-22 01:28:53] [class-ss-wrapup-task.php:22] Deleting temporary files
-[2024-10-22 01:28:53] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
-[2024-10-22 01:28:53] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
-[2024-10-22 01:28:53] [class-ss-archive-creation-job.php:197] Completing the job
-[2024-10-22 01:28:53] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:00:30
+[2024-10-22 01:51:43] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-10-22 01:51:43] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, transfer_files_locally, wrapup
+[2024-10-22 01:51:43] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-10-22 01:51:47] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-10-22 01:51:47] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-10-22 01:51:47] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-10-22 01:51:48] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729561903\
+[2024-10-22 01:51:48] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/adm_Freddy_Copa_Uyuni/
+[2024-10-22 01:51:48] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-10-22 01:51:48] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-22 01:51:48] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-22 01:51:48] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
+[2024-10-22 01:51:48] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/
+[2024-10-22 01:51:48] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
+[2024-10-22 01:51:48] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-22 01:51:48] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671705343cef6-sn5bLe.tmp
+[2024-10-22 01:51:48] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/?simply_static_page=108
+[2024-10-22 01:51:48] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/?simply_static_page=108
+[2024-10-22 01:51:52] [class-ss-url-fetcher.php:103] Filesize: 59725 bytes
+[2024-10-22 01:51:52] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-22 01:51:52] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-10-22 01:51:52] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671705343cef6-sn5bLe.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729561903/index.html
+[2024-10-22 01:51:52] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-22 01:51:53] [class-ss-fetch-urls-task.php:159] Adding 35 URLs to the queue
+[2024-10-22 01:51:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-22 01:51:53] [class-ss-page.php:119] Checking Content Identical:e0c7a9793440b41e7edbbcfb97240b2f7a86c04d===. Value: FALSE
+[2024-10-22 01:51:53] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
+[2024-10-22 01:51:53] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-22 01:51:53] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-22 01:51:53] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-22 01:51:53] [class-ss-fetch-urls-task.php:69] Total pages: 35; Pages remaining: 34
+[2024-10-22 01:51:53] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni
+[2024-10-22 01:51:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 35
+[2024-10-22 01:51:53] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-22 01:51:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/67170539b020c-vcXScr.tmp
+[2024-10-22 01:51:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni?simply_static_page=109
+[2024-10-22 01:51:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni?simply_static_page=109
+[2024-10-22 01:51:53] [class-ss-url-fetcher.php:103] Filesize: 369 bytes
+[2024-10-22 01:51:53] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2024-10-22 01:51:53] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-10-22 01:51:53] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/adm_Freddy_Copa_Uyuni/
+[2024-10-22 01:51:53] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-10-22 01:51:53] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/principal/
+[2024-10-22 01:51:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 35
+[2024-10-22 01:51:53] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-22 01:51:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/67170539c7abc-hNC4rq.tmp
+[2024-10-22 01:51:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/principal/?simply_static_page=110
+[2024-10-22 01:51:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/principal/?simply_static_page=110
+[2024-10-22 01:51:53] [class-ss-url-fetcher.php:103] Filesize: 147160 bytes
+[2024-10-22 01:51:53] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2024-10-22 01:51:53] [class-ss-url-fetcher.php:233] New filename for static page: /principal/index.html
+[2024-10-22 01:51:53] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/67170539c7abc-hNC4rq.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729561903/principal/index.html
+[2024-10-22 01:51:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-22 01:51:54] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-22 01:51:54] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-22 01:51:54] [class-ss-page.php:119] Checking Content Identical:c9f135546483465e7c88762d1b0c80c82c3001a6===. Value: FALSE
+[2024-10-22 01:51:54] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/acerca-de-nosotros/
+[2024-10-22 01:51:54] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 35
+[2024-10-22 01:51:54] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-22 01:51:54] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6717053af162f-PGMj3L.tmp
+[2024-10-22 01:51:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/acerca-de-nosotros/?simply_static_page=111
+[2024-10-22 01:51:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/acerca-de-nosotros/?simply_static_page=111
+[2024-10-22 01:51:59] [class-ss-url-fetcher.php:103] Filesize: 51413 bytes
+[2024-10-22 01:51:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-22 01:51:59] [class-ss-url-fetcher.php:233] New filename for static page: /acerca-de-nosotros/index.html
+[2024-10-22 01:51:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6717053af162f-PGMj3L.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729561903/acerca-de-nosotros/index.html
+[2024-10-22 01:51:59] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-22 01:52:00] [class-ss-fetch-urls-task.php:159] Adding 35 URLs to the queue
+[2024-10-22 01:52:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-22 01:52:00] [class-ss-page.php:119] Checking Content Identical:fcc5cf365b89d45c733a4c07dc64493f350fad24===. Value: FALSE
+[2024-10-22 01:52:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/contactos/
+[2024-10-22 01:52:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 35
+[2024-10-22 01:52:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-22 01:52:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671705405f2a2-4nImkm.tmp
+[2024-10-22 01:52:00] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/contactos/?simply_static_page=112
+[2024-10-22 01:52:00] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/contactos/?simply_static_page=112
+[2024-10-22 01:52:07] [class-ss-url-fetcher.php:103] Filesize: 51368 bytes
+[2024-10-22 01:52:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-22 01:52:07] [class-ss-url-fetcher.php:233] New filename for static page: /contactos/index.html
+[2024-10-22 01:52:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671705405f2a2-4nImkm.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729561903/contactos/index.html
+[2024-10-22 01:52:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-22 01:52:07] [class-ss-fetch-urls-task.php:159] Adding 35 URLs to the queue
+[2024-10-22 01:52:08] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-22 01:52:08] [class-ss-page.php:119] Checking Content Identical:1d97516376fe4e5a7f035b5da1073ac6bc7c9b80===. Value: FALSE
+[2024-10-22 01:52:08] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/servicios/
+[2024-10-22 01:52:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 35
+[2024-10-22 01:52:08] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-22 01:52:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6717054867d5c-RzgRed.tmp
+[2024-10-22 01:52:08] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/servicios/?simply_static_page=113
+[2024-10-22 01:52:08] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/servicios/?simply_static_page=113
+[2024-10-22 01:52:15] [class-ss-url-fetcher.php:103] Filesize: 51368 bytes
+[2024-10-22 01:52:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-22 01:52:15] [class-ss-url-fetcher.php:233] New filename for static page: /servicios/index.html
+[2024-10-22 01:52:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6717054867d5c-RzgRed.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729561903/servicios/index.html
+[2024-10-22 01:52:15] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-22 01:52:16] [class-ss-fetch-urls-task.php:159] Adding 35 URLs to the queue
+[2024-10-22 01:52:16] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-22 01:52:16] [class-ss-page.php:119] Checking Content Identical:5eadc446ed64dfcc2f7aca2d9e3d0c5ad11c072f===. Value: FALSE
+[2024-10-22 01:52:16] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/novedades/
+[2024-10-22 01:52:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 35
+[2024-10-22 01:52:16] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-22 01:52:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6717055048d5b-UYF29s.tmp
+[2024-10-22 01:52:16] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/novedades/?simply_static_page=114
+[2024-10-22 01:52:16] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/novedades/?simply_static_page=114
+[2024-10-22 01:52:21] [class-ss-url-fetcher.php:103] Filesize: 51368 bytes
+[2024-10-22 01:52:21] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-22 01:52:21] [class-ss-url-fetcher.php:233] New filename for static page: /novedades/index.html
+[2024-10-22 01:52:21] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6717055048d5b-UYF29s.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729561903/novedades/index.html
+[2024-10-22 01:52:21] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-22 01:52:21] [class-ss-fetch-urls-task.php:159] Adding 35 URLs to the queue
+[2024-10-22 01:52:21] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-22 01:52:21] [class-ss-page.php:119] Checking Content Identical:77e39f496791206b600048ab4f578475687fd0b2===. Value: FALSE
+[2024-10-22 01:52:21] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/2024/10/22/hola-mundo/
+[2024-10-22 01:52:21] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 35
+[2024-10-22 01:52:21] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-22 01:52:21] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/67170555eaac9-2KpntJ.tmp
+[2024-10-22 01:52:21] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/2024/10/22/hola-mundo/?simply_static_page=115
+[2024-10-22 01:52:21] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/2024/10/22/hola-mundo/?simply_static_page=115
+[2024-10-22 01:52:22] [class-ss-url-fetcher.php:103] Filesize: 57112 bytes
+[2024-10-22 01:52:22] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2024-10-22 01:52:22] [class-ss-url-fetcher.php:233] New filename for static page: /2024/10/22/hola-mundo/index.html
+[2024-10-22 01:52:22] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/67170555eaac9-2KpntJ.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729561903/2024/10/22/hola-mundo/index.html
+[2024-10-22 01:52:22] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-22 01:52:22] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-22 01:52:22] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-22 01:52:22] [class-ss-page.php:119] Checking Content Identical:31452b138840e0a30269270f0b45bf99e2f69c30===. Value: FALSE
+[2024-10-22 01:52:22] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-content/uploads/2024/10/FB_IMG_1647815032337.jpg
+[2024-10-22 01:52:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 35
+[2024-10-22 01:52:22] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-22 01:52:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/67170556a57a7-2Bd1AW.tmp
+[2024-10-22 01:52:22] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-content/uploads/2024/10/FB_IMG_1647815032337.jpg?simply_static_page=116
+[2024-10-22 01:52:22] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-content/uploads/2024/10/FB_IMG_1647815032337.jpg?simply_static_page=116
+[2024-10-22 01:52:22] [class-ss-url-fetcher.php:103] Filesize: 18736 bytes
+[2024-10-22 01:52:22] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-10-22 01:52:22] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/FB_IMG_1647815032337.jpg
+[2024-10-22 01:52:22] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/67170556a57a7-2Bd1AW.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729561903/wp-content/uploads/2024/10/FB_IMG_1647815032337.jpg
+[2024-10-22 01:52:22] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-22 01:52:22] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-22 01:52:22] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-22 01:52:22] [class-ss-page.php:119] Checking Content Identical:f0a74bc946bf54ae9af6a21c543b92674ff0ee6c===. Value: FALSE
+[2024-10-22 01:52:22] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-content/uploads/2024/10/PSX_20231105_105418.png
+[2024-10-22 01:52:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 35
+[2024-10-22 01:52:22] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-22 01:52:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/67170556cc488-mhJqT2.tmp
+[2024-10-22 01:52:22] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-content/uploads/2024/10/PSX_20231105_105418.png?simply_static_page=117
+[2024-10-22 01:52:22] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-content/uploads/2024/10/PSX_20231105_105418.png?simply_static_page=117
+[2024-10-22 01:52:22] [class-ss-url-fetcher.php:103] Filesize: 330065 bytes
+[2024-10-22 01:52:22] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-22 01:52:22] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/PSX_20231105_105418.png
+[2024-10-22 01:52:22] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/67170556cc488-mhJqT2.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729561903/wp-content/uploads/2024/10/PSX_20231105_105418.png
+[2024-10-22 01:52:22] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-22 01:52:22] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-22 01:52:22] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-22 01:52:23] [class-ss-page.php:119] Checking Content Identical:53a8bfd75f691a9cfeefaaef5737c1fc3c9f052f===. Value: FALSE
+[2024-10-22 01:52:23] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/jquery/jquery.min.js
+[2024-10-22 01:52:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 35
+[2024-10-22 01:52:23] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-22 01:52:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6717055708d41-S95QQd.tmp
+[2024-10-22 01:52:23] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/jquery/jquery.min.js?simply_static_page=118
+[2024-10-22 01:52:23] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/jquery/jquery.min.js?simply_static_page=118
+[2024-10-22 01:52:23] [class-ss-url-fetcher.php:103] Filesize: 87553 bytes
+[2024-10-22 01:52:23] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-22 01:52:23] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery.min.js
+[2024-10-22 01:52:23] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6717055708d41-S95QQd.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729561903/wp-includes/js/jquery/jquery.min.js
+[2024-10-22 01:52:23] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-22 01:52:23] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-22 01:52:23] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-22 01:52:23] [class-ss-page.php:119] Checking Content Identical:79cd3587d565afe290076a8d36c31c305a573d18===. Value: FALSE
+[2024-10-22 01:52:23] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/jquery/jquery-migrate.min.js
+[2024-10-22 01:52:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 35
+[2024-10-22 01:52:23] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-22 01:52:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/67170557405ad-lW8j9Z.tmp
+[2024-10-22 01:52:23] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=119
+[2024-10-22 01:52:23] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=119
+[2024-10-22 01:52:23] [class-ss-url-fetcher.php:103] Filesize: 13577 bytes
+[2024-10-22 01:52:23] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-22 01:52:23] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery-migrate.min.js
+[2024-10-22 01:52:23] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/67170557405ad-lW8j9Z.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729561903/wp-includes/js/jquery/jquery-migrate.min.js
+[2024-10-22 01:52:23] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-22 01:52:23] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-22 01:52:23] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-22 01:52:23] [class-ss-page.php:119] Checking Content Identical:3ad0c10e501ac2a9bfa18f9cd7e700219b378738===. Value: FALSE
+[2024-10-22 01:52:23] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-content/plugins/gutenify/core/assets/js/lib/swiper-bundle.js
+[2024-10-22 01:52:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 35
+[2024-10-22 01:52:23] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-22 01:52:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6717055763d1d-ejSI8t.tmp
+[2024-10-22 01:52:23] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-content/plugins/gutenify/core/assets/js/lib/swiper-bundle.js?simply_static_page=120
+[2024-10-22 01:52:23] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-content/plugins/gutenify/core/assets/js/lib/swiper-bundle.js?simply_static_page=120
+[2024-10-22 01:52:23] [class-ss-url-fetcher.php:103] Filesize: 146374 bytes
+[2024-10-22 01:52:23] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-22 01:52:23] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/js/lib/swiper-bundle.js
+[2024-10-22 01:52:23] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6717055763d1d-ejSI8t.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729561903/wp-content/plugins/gutenify/core/assets/js/lib/swiper-bundle.js
+[2024-10-22 01:52:23] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-22 01:52:23] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-22 01:52:23] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-22 01:52:23] [class-ss-page.php:119] Checking Content Identical:7996d63abbbbe06e4ccbfdcfcc1979b4ef224eb6===. Value: FALSE
+[2024-10-22 01:52:23] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-content/plugins/gutenify/core/assets/js/lib/scrollmagic/ScrollMagic.min.js
+[2024-10-22 01:52:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 35
+[2024-10-22 01:52:23] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-22 01:52:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671705579c587-7AXQu7.tmp
+[2024-10-22 01:52:23] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-content/plugins/gutenify/core/assets/js/lib/scrollmagic/ScrollMagic.min.js?simply_static_page=121
+[2024-10-22 01:52:23] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-content/plugins/gutenify/core/assets/js/lib/scrollmagic/ScrollMagic.min.js?simply_static_page=121
+[2024-10-22 01:52:23] [class-ss-url-fetcher.php:103] Filesize: 17388 bytes
+[2024-10-22 01:52:23] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-22 01:52:23] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/js/lib/scrollmagic/ScrollMagic.min.js
+[2024-10-22 01:52:23] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671705579c587-7AXQu7.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729561903/wp-content/plugins/gutenify/core/assets/js/lib/scrollmagic/ScrollMagic.min.js
+[2024-10-22 01:52:23] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-22 01:52:23] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-22 01:52:23] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-22 01:52:23] [class-ss-page.php:119] Checking Content Identical:41cd89ef41484b59d50b766f5c8755c9a9084018===. Value: FALSE
+[2024-10-22 01:52:23] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/blocks/navigation/view.min.js
+[2024-10-22 01:52:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 35
+[2024-10-22 01:52:23] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-22 01:52:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/67170557ca6f0-euIm6m.tmp
+[2024-10-22 01:52:23] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/blocks/navigation/view.min.js?simply_static_page=122
+[2024-10-22 01:52:23] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/blocks/navigation/view.min.js?simply_static_page=122
+[2024-10-22 01:52:23] [class-ss-url-fetcher.php:103] Filesize: 3300 bytes
+[2024-10-22 01:52:23] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-22 01:52:23] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/view.min.js
+[2024-10-22 01:52:23] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/67170557ca6f0-euIm6m.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729561903/wp-includes/blocks/navigation/view.min.js
+[2024-10-22 01:52:23] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-22 01:52:23] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-22 01:52:23] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-22 01:52:23] [class-ss-page.php:119] Checking Content Identical:b27ba805d3b9118edfd523f01fd6e84229d52ffd===. Value: FALSE
+[2024-10-22 01:52:23] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js
+[2024-10-22 01:52:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 35
+[2024-10-22 01:52:24] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-22 01:52:24] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6717055802973-OkxdvH.tmp
+[2024-10-22 01:52:24] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?simply_static_page=123
+[2024-10-22 01:52:24] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?simply_static_page=123
+[2024-10-22 01:52:24] [class-ss-url-fetcher.php:103] Filesize: 8171 bytes
+[2024-10-22 01:52:24] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-22 01:52:24] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/vendor/wp-polyfill-inert.min.js
+[2024-10-22 01:52:24] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6717055802973-OkxdvH.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729561903/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js
+[2024-10-22 01:52:24] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-22 01:52:24] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-22 01:52:24] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-22 01:52:24] [class-ss-page.php:119] Checking Content Identical:60c8514c57a5db2980c4b046b0dd479bd427357b===. Value: FALSE
+[2024-10-22 01:52:24] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/dist/vendor/regenerator-runtime.min.js
+[2024-10-22 01:52:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 35
+[2024-10-22 01:52:24] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-22 01:52:24] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671705582ccc8-XYcLWl.tmp
+[2024-10-22 01:52:24] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/dist/vendor/regenerator-runtime.min.js?simply_static_page=124
+[2024-10-22 01:52:24] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/dist/vendor/regenerator-runtime.min.js?simply_static_page=124
+[2024-10-22 01:52:24] [class-ss-url-fetcher.php:103] Filesize: 6625 bytes
+[2024-10-22 01:52:24] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-22 01:52:24] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/vendor/regenerator-runtime.min.js
+[2024-10-22 01:52:24] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671705582ccc8-XYcLWl.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729561903/wp-includes/js/dist/vendor/regenerator-runtime.min.js
+[2024-10-22 01:52:24] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-22 01:52:24] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-22 01:52:24] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-22 01:52:24] [class-ss-page.php:119] Checking Content Identical:0d792b33f12a48ee8aaaf2560a63a5682470645b===. Value: FALSE
+[2024-10-22 01:52:24] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/dist/vendor/wp-polyfill.min.js
+[2024-10-22 01:52:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 35
+[2024-10-22 01:52:24] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-22 01:52:24] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6717055855b5c-Xz7ktq.tmp
+[2024-10-22 01:52:24] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/dist/vendor/wp-polyfill.min.js?simply_static_page=125
+[2024-10-22 01:52:24] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/dist/vendor/wp-polyfill.min.js?simply_static_page=125
+[2024-10-22 01:52:24] [class-ss-url-fetcher.php:103] Filesize: 38590 bytes
+[2024-10-22 01:52:24] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-22 01:52:24] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/vendor/wp-polyfill.min.js
+[2024-10-22 01:52:24] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6717055855b5c-Xz7ktq.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729561903/wp-includes/js/dist/vendor/wp-polyfill.min.js
+[2024-10-22 01:52:24] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-22 01:52:24] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-22 01:52:24] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-22 01:52:24] [class-ss-page.php:119] Checking Content Identical:eab40ab4e77f92f2fb17684aaf44b579a51b8034===. Value: FALSE
+[2024-10-22 01:52:24] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/dist/dom-ready.min.js
+[2024-10-22 01:52:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 35
+[2024-10-22 01:52:24] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-22 01:52:24] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671705587cc47-GrB1xc.tmp
+[2024-10-22 01:52:24] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/dist/dom-ready.min.js?simply_static_page=126
+[2024-10-22 01:52:24] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/dist/dom-ready.min.js?simply_static_page=126
+[2024-10-22 01:52:24] [class-ss-url-fetcher.php:103] Filesize: 457 bytes
+[2024-10-22 01:52:24] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-22 01:52:24] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/dom-ready.min.js
+[2024-10-22 01:52:24] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671705587cc47-GrB1xc.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729561903/wp-includes/js/dist/dom-ready.min.js
+[2024-10-22 01:52:24] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-22 01:52:24] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-22 01:52:24] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-22 01:52:24] [class-ss-page.php:119] Checking Content Identical:3c03312717fb495c051d02a3d27ec0d8abc2557d===. Value: FALSE
+[2024-10-22 01:52:24] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/dist/hooks.min.js
+[2024-10-22 01:52:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 35
+[2024-10-22 01:52:24] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-22 01:52:24] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/67170558a38e5-pOpa57.tmp
+[2024-10-22 01:52:24] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/dist/hooks.min.js?simply_static_page=127
+[2024-10-22 01:52:24] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/dist/hooks.min.js?simply_static_page=127
+[2024-10-22 01:52:24] [class-ss-url-fetcher.php:103] Filesize: 4307 bytes
+[2024-10-22 01:52:24] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-22 01:52:24] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/hooks.min.js
+[2024-10-22 01:52:24] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/67170558a38e5-pOpa57.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729561903/wp-includes/js/dist/hooks.min.js
+[2024-10-22 01:52:24] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-22 01:52:24] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-22 01:52:24] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-22 01:52:24] [class-ss-page.php:119] Checking Content Identical:ee6aa3d65b474309376468b24bb6f829a4514809===. Value: FALSE
+[2024-10-22 01:52:24] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/dist/i18n.min.js
+[2024-10-22 01:52:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 35
+[2024-10-22 01:52:24] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-22 01:52:24] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/67170558caf8b-oDkALl.tmp
+[2024-10-22 01:52:24] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/dist/i18n.min.js?simply_static_page=128
+[2024-10-22 01:52:24] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/dist/i18n.min.js?simply_static_page=128
+[2024-10-22 01:52:24] [class-ss-url-fetcher.php:103] Filesize: 9141 bytes
+[2024-10-22 01:52:24] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-22 01:52:24] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/i18n.min.js
+[2024-10-22 01:52:24] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/67170558caf8b-oDkALl.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729561903/wp-includes/js/dist/i18n.min.js
+[2024-10-22 01:52:24] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-22 01:52:24] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-22 01:52:24] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-22 01:52:25] [class-ss-page.php:119] Checking Content Identical:9997a1745f48bdd233dbe9bd8164daa53eba105b===. Value: FALSE
+[2024-10-22 01:52:25] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.js
+[2024-10-22 01:52:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 35
+[2024-10-22 01:52:25] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-22 01:52:25] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/67170559094bb-Ca4D5r.tmp
+[2024-10-22 01:52:25] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.js?simply_static_page=129
+[2024-10-22 01:52:25] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.js?simply_static_page=129
+[2024-10-22 01:52:25] [class-ss-url-fetcher.php:103] Filesize: 3175 bytes
+[2024-10-22 01:52:25] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-22 01:52:25] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.js
+[2024-10-22 01:52:25] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/67170559094bb-Ca4D5r.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729561903/wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.js
+[2024-10-22 01:52:25] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-22 01:52:25] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-22 01:52:25] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-22 01:52:25] [class-ss-page.php:119] Checking Content Identical:3d01c6b78e40a9a7c54d2b224e3a47a2029f5e89===. Value: FALSE
+[2024-10-22 01:52:25] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-content/plugins/gutenify/core/dist/non-blocks/common-scripts/slider/index.js
+[2024-10-22 01:52:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 35
+[2024-10-22 01:52:25] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-22 01:52:25] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6717055936978-V4csqI.tmp
+[2024-10-22 01:52:25] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-content/plugins/gutenify/core/dist/non-blocks/common-scripts/slider/index.js?simply_static_page=130
+[2024-10-22 01:52:25] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-content/plugins/gutenify/core/dist/non-blocks/common-scripts/slider/index.js?simply_static_page=130
+[2024-10-22 01:52:25] [class-ss-url-fetcher.php:103] Filesize: 2168 bytes
+[2024-10-22 01:52:25] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-22 01:52:25] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/dist/non-blocks/common-scripts/slider/index.js
+[2024-10-22 01:52:25] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6717055936978-V4csqI.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729561903/wp-content/plugins/gutenify/core/dist/non-blocks/common-scripts/slider/index.js
+[2024-10-22 01:52:25] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-22 01:52:25] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-22 01:52:25] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-22 01:52:25] [class-ss-page.php:119] Checking Content Identical:e3b1e4809103a536677d7f469e22585c072a3743===. Value: FALSE
+[2024-10-22 01:52:25] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/feed/
+[2024-10-22 01:52:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 35
+[2024-10-22 01:52:25] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-22 01:52:25] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6717055963df2-uspeHu.tmp
+[2024-10-22 01:52:25] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/feed/?simply_static_page=131
+[2024-10-22 01:52:25] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/feed/?simply_static_page=131
+[2024-10-22 01:52:25] [class-ss-url-fetcher.php:103] Filesize: 339 bytes
+[2024-10-22 01:52:25] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2024-10-22 01:52:25] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.html
+[2024-10-22 01:52:25] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6717055963df2-uspeHu.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729561903/feed/index.html
+[2024-10-22 01:52:25] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-22 01:52:25] [class-ss-fetch-urls-task.php:159] Adding 1 URLs to the queue
+[2024-10-22 01:52:25] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-22 01:52:25] [class-ss-page.php:119] Checking Content Identical:2b9382a24558db68a321569395932a279c693358===. Value: FALSE
+[2024-10-22 01:52:25] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/comments/feed/
+[2024-10-22 01:52:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 35
+[2024-10-22 01:52:25] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-22 01:52:25] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/67170559aa1e3-39V3uk.tmp
+[2024-10-22 01:52:25] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/comments/feed/?simply_static_page=132
+[2024-10-22 01:52:25] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/comments/feed/?simply_static_page=132
+[2024-10-22 01:52:25] [class-ss-url-fetcher.php:103] Filesize: 1520 bytes
+[2024-10-22 01:52:25] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2024-10-22 01:52:25] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.html
+[2024-10-22 01:52:25] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/67170559aa1e3-39V3uk.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729561903/comments/feed/index.html
+[2024-10-22 01:52:25] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-22 01:52:25] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-22 01:52:25] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-22 01:52:25] [class-ss-page.php:119] Checking Content Identical:ce03f6e530e82fbfa5a6d76a51d0081d7ff36fb4===. Value: FALSE
+[2024-10-22 01:52:25] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/blocks/navigation/style.min.css
+[2024-10-22 01:52:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 35
+[2024-10-22 01:52:25] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-22 01:52:25] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/67170559ece5e-PZoxy7.tmp
+[2024-10-22 01:52:25] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/blocks/navigation/style.min.css?simply_static_page=133
+[2024-10-22 01:52:25] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/blocks/navigation/style.min.css?simply_static_page=133
+[2024-10-22 01:52:26] [class-ss-url-fetcher.php:103] Filesize: 16484 bytes
+[2024-10-22 01:52:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-22 01:52:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/style.min.css
+[2024-10-22 01:52:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/67170559ece5e-PZoxy7.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729561903/wp-includes/blocks/navigation/style.min.css
+[2024-10-22 01:52:26] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-22 01:52:26] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-22 01:52:26] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-22 01:52:26] [class-ss-page.php:119] Checking Content Identical:a75edf5442c196d670e436c2f616ecd595e41d68===. Value: FALSE
+[2024-10-22 01:52:26] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-content/themes/twentytwentytwo/style.css
+[2024-10-22 01:52:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 35
+[2024-10-22 01:52:26] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-22 01:52:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6717055a2c07d-qJOUQQ.tmp
+[2024-10-22 01:52:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-content/themes/twentytwentytwo/style.css?simply_static_page=134
+[2024-10-22 01:52:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-content/themes/twentytwentytwo/style.css?simply_static_page=134
+[2024-10-22 01:52:26] [class-ss-url-fetcher.php:103] Filesize: 5987 bytes
+[2024-10-22 01:52:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-22 01:52:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentytwo/style.css
+[2024-10-22 01:52:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6717055a2c07d-qJOUQQ.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729561903/wp-content/themes/twentytwentytwo/style.css
+[2024-10-22 01:52:26] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-22 01:52:26] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-22 01:52:26] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-22 01:52:26] [class-ss-page.php:119] Checking Content Identical:f65f7986f08422d278d00e3ea70e6412168c8871===. Value: FALSE
+[2024-10-22 01:52:26] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-content/plugins/gutenify/core/assets/fontawesome/css/all.css
+[2024-10-22 01:52:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 35
+[2024-10-22 01:52:26] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-22 01:52:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6717055a62d7f-QMdJ7W.tmp
+[2024-10-22 01:52:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-content/plugins/gutenify/core/assets/fontawesome/css/all.css?simply_static_page=135
+[2024-10-22 01:52:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-content/plugins/gutenify/core/assets/fontawesome/css/all.css?simply_static_page=135
+[2024-10-22 01:52:26] [class-ss-url-fetcher.php:103] Filesize: 55371 bytes
+[2024-10-22 01:52:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-22 01:52:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/fontawesome/css/all.css
+[2024-10-22 01:52:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6717055a62d7f-QMdJ7W.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729561903/wp-content/plugins/gutenify/core/assets/fontawesome/css/all.css
+[2024-10-22 01:52:26] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-22 01:52:26] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-22 01:52:26] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-22 01:52:26] [class-ss-page.php:119] Checking Content Identical:33734d427c0e54a9e7b130dd939ea7c531cb3a53===. Value: FALSE
+[2024-10-22 01:52:26] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-content/fonts/1a33f0c506967449d06c1fc2e72370ce.css
+[2024-10-22 01:52:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 35
+[2024-10-22 01:52:26] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-22 01:52:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6717055aa41d8-9RP06j.tmp
+[2024-10-22 01:52:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-content/fonts/1a33f0c506967449d06c1fc2e72370ce.css?simply_static_page=136
+[2024-10-22 01:52:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-content/fonts/1a33f0c506967449d06c1fc2e72370ce.css?simply_static_page=136
+[2024-10-22 01:52:26] [class-ss-url-fetcher.php:103] Filesize: 1 bytes
+[2024-10-22 01:52:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-22 01:52:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/fonts/1a33f0c506967449d06c1fc2e72370ce.css
+[2024-10-22 01:52:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6717055aa41d8-9RP06j.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729561903/wp-content/fonts/1a33f0c506967449d06c1fc2e72370ce.css
+[2024-10-22 01:52:26] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-22 01:52:26] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-22 01:52:26] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-22 01:52:26] [class-ss-page.php:119] Checking Content Identical:b858cb282617fb0956d960215c8e84d1ccf909c6===. Value: FALSE
+[2024-10-22 01:52:26] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.css
+[2024-10-22 01:52:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 35
+[2024-10-22 01:52:26] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-22 01:52:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6717055acc6ba-YwjSnY.tmp
+[2024-10-22 01:52:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.css?simply_static_page=137
+[2024-10-22 01:52:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.css?simply_static_page=137
+[2024-10-22 01:52:26] [class-ss-url-fetcher.php:103] Filesize: 20338 bytes
+[2024-10-22 01:52:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-22 01:52:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.css
+[2024-10-22 01:52:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6717055acc6ba-YwjSnY.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729561903/wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.css
+[2024-10-22 01:52:26] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-22 01:52:27] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-22 01:52:27] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-22 01:52:27] [class-ss-page.php:119] Checking Content Identical:be3ec737e679ebabdf80221f9107ffb6a5e586fb===. Value: FALSE
+[2024-10-22 01:52:27] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-json/
+[2024-10-22 01:52:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 35
+[2024-10-22 01:52:27] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-22 01:52:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6717055b153f8-tDpQJS.tmp
+[2024-10-22 01:52:27] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-json/?simply_static_page=138
+[2024-10-22 01:52:27] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-json/?simply_static_page=138
+[2024-10-22 01:52:27] [class-ss-url-fetcher.php:103] Filesize: 238715 bytes
+[2024-10-22 01:52:27] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2024-10-22 01:52:27] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/index.html
+[2024-10-22 01:52:27] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6717055b153f8-tDpQJS.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729561903/wp-json/index.html
+[2024-10-22 01:52:27] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-22 01:52:28] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-22 01:52:28] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-22 01:52:28] [class-ss-page.php:119] Checking Content Identical:edd4c07ed7f2b3a1a4275bbc84eb926a4cb2ed8a===. Value: FALSE
+[2024-10-22 01:52:28] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/xmlrpc.php
+[2024-10-22 01:52:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 35
+[2024-10-22 01:52:28] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/adm_Freddy_Copa_Uyuni/xmlrpc.php
+[2024-10-22 01:52:28] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-22 01:52:28] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/dist/interactivity.min.js
+[2024-10-22 01:52:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 35
+[2024-10-22 01:52:28] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-22 01:52:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6717055c5f1e7-NSE0De.tmp
+[2024-10-22 01:52:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/dist/interactivity.min.js?simply_static_page=140
+[2024-10-22 01:52:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-includes/js/dist/interactivity.min.js?simply_static_page=140
+[2024-10-22 01:52:28] [class-ss-url-fetcher.php:103] Filesize: 35085 bytes
+[2024-10-22 01:52:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-22 01:52:28] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/interactivity.min.js
+[2024-10-22 01:52:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6717055c5f1e7-NSE0De.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729561903/wp-includes/js/dist/interactivity.min.js
+[2024-10-22 01:52:28] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-22 01:52:28] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-22 01:52:28] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-22 01:52:28] [class-ss-page.php:119] Checking Content Identical:94d22d48979f46560d1c7ff46978bfd4b67aebec===. Value: FALSE
+[2024-10-22 01:52:28] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2
+[2024-10-22 01:52:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 35
+[2024-10-22 01:52:28] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-22 01:52:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6717055c8d9fe-SxiJ0K.tmp
+[2024-10-22 01:52:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2?simply_static_page=141
+[2024-10-22 01:52:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2?simply_static_page=141
+[2024-10-22 01:52:28] [class-ss-url-fetcher.php:103] Filesize: 428448 bytes
+[2024-10-22 01:52:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-10-22 01:52:28] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2
+[2024-10-22 01:52:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6717055c8d9fe-SxiJ0K.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729561903/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2
+[2024-10-22 01:52:28] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-22 01:52:28] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-22 01:52:28] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-22 01:52:28] [class-ss-page.php:119] Checking Content Identical:b622e44324ea8789789e812cae242e1f483e9811===. Value: FALSE
+[2024-10-22 01:52:28] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2
+[2024-10-22 01:52:28] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 35
+[2024-10-22 01:52:28] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-22 01:52:28] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6717055ccc4ff-mhQ8bF.tmp
+[2024-10-22 01:52:28] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2?simply_static_page=142
+[2024-10-22 01:52:28] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2?simply_static_page=142
+[2024-10-22 01:52:28] [class-ss-url-fetcher.php:103] Filesize: 346840 bytes
+[2024-10-22 01:52:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-10-22 01:52:28] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2
+[2024-10-22 01:52:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6717055ccc4ff-mhQ8bF.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729561903/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2
+[2024-10-22 01:52:29] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-22 01:52:29] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-22 01:52:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-22 01:52:29] [class-ss-page.php:119] Checking Content Identical:95c3d13946b16dfb07cfa14629a8ae04cc83323d===. Value: FALSE
+[2024-10-22 01:52:29] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 35 pages/files
+[2024-10-22 01:52:29] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-22 01:52:33] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-22 01:52:33] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-22 01:52:33] [class-ss-fetch-urls-task.php:69] Total pages: 41; Pages remaining: 6
+[2024-10-22 01:52:33] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-json/wp/v2/pages/23
+[2024-10-22 01:52:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 41
+[2024-10-22 01:52:33] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-22 01:52:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/67170561cecec-wMS9Vl.tmp
+[2024-10-22 01:52:33] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-json/wp/v2/pages/23?simply_static_page=143
+[2024-10-22 01:52:33] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-json/wp/v2/pages/23?simply_static_page=143
+[2024-10-22 01:52:40] [class-ss-url-fetcher.php:103] Filesize: 1626 bytes
+[2024-10-22 01:52:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-10-22 01:52:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/pages/23\index.html
+[2024-10-22 01:52:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/67170561cecec-wMS9Vl.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729561903/wp-json/wp/v2/pages/23\index.html
+[2024-10-22 01:52:40] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-22 01:52:40] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-22 01:52:40] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-22 01:52:40] [class-ss-page.php:119] Checking Content Identical:ad8e026bfd9378402adc3ba77609d706e9a45dc5===. Value: FALSE
+[2024-10-22 01:52:40] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-json/oembed/1.0/embed
+[2024-10-22 01:52:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 41
+[2024-10-22 01:52:40] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-22 01:52:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6717056833bca-TEgMCt.tmp
+[2024-10-22 01:52:40] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-json/oembed/1.0/embed?simply_static_page=144
+[2024-10-22 01:52:40] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-json/oembed/1.0/embed?simply_static_page=144
+[2024-10-22 01:52:44] [class-ss-url-fetcher.php:103] Filesize: 125 bytes
+[2024-10-22 01:52:45] [class-ss-url-fetcher.php:119] http_status_code: 400 | content_type: application/json; charset=UTF-8
+[2024-10-22 01:52:45] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-10-22 01:52:45] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-json/wp/v2/pages/25
+[2024-10-22 01:52:45] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 41
+[2024-10-22 01:52:45] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-22 01:52:45] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6717056d0cd55-p1ArQP.tmp
+[2024-10-22 01:52:45] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-json/wp/v2/pages/25?simply_static_page=145
+[2024-10-22 01:52:45] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-json/wp/v2/pages/25?simply_static_page=145
+[2024-10-22 01:52:49] [class-ss-url-fetcher.php:103] Filesize: 1599 bytes
+[2024-10-22 01:52:49] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-10-22 01:52:49] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/pages/25\index.html
+[2024-10-22 01:52:49] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6717056d0cd55-p1ArQP.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729561903/wp-json/wp/v2/pages/25\index.html
+[2024-10-22 01:52:49] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-22 01:52:49] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-22 01:52:49] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-22 01:52:49] [class-ss-page.php:119] Checking Content Identical:a91b70bb9c27a4207cc7a7f70c125819e7784952===. Value: FALSE
+[2024-10-22 01:52:49] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-json/wp/v2/pages/27
+[2024-10-22 01:52:49] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 41
+[2024-10-22 01:52:49] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-22 01:52:49] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/67170571de627-TdaDQb.tmp
+[2024-10-22 01:52:49] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-json/wp/v2/pages/27?simply_static_page=146
+[2024-10-22 01:52:49] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-json/wp/v2/pages/27?simply_static_page=146
+[2024-10-22 01:52:54] [class-ss-url-fetcher.php:103] Filesize: 1599 bytes
+[2024-10-22 01:52:54] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-10-22 01:52:54] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/pages/27\index.html
+[2024-10-22 01:52:54] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/67170571de627-TdaDQb.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729561903/wp-json/wp/v2/pages/27\index.html
+[2024-10-22 01:52:54] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-22 01:52:54] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-22 01:52:54] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-22 01:52:54] [class-ss-page.php:119] Checking Content Identical:111e23830a7a2466075cd481fd7c88ba8b1b80d1===. Value: FALSE
+[2024-10-22 01:52:54] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-json/wp/v2/pages/31
+[2024-10-22 01:52:54] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 41
+[2024-10-22 01:52:54] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-22 01:52:54] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/67170576333c7-i6vu1k.tmp
+[2024-10-22 01:52:54] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/wp-json/wp/v2/pages/31?simply_static_page=147
+[2024-10-22 01:52:54] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/wp-json/wp/v2/pages/31?simply_static_page=147
+[2024-10-22 01:52:58] [class-ss-url-fetcher.php:103] Filesize: 1599 bytes
+[2024-10-22 01:52:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-10-22 01:52:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/pages/31\index.html
+[2024-10-22 01:52:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/67170576333c7-i6vu1k.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729561903/wp-json/wp/v2/pages/31\index.html
+[2024-10-22 01:52:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-22 01:52:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-22 01:52:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-22 01:52:59] [class-ss-page.php:119] Checking Content Identical:7eee0182e8ac7ba0f3af3238d69439297233c31f===. Value: FALSE
+[2024-10-22 01:52:59] [class-ss-fetch-urls-task.php:72] URL: http://localhost/adm_Freddy_Copa_Uyuni/feed/index.xml
+[2024-10-22 01:52:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 41
+[2024-10-22 01:52:59] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-22 01:52:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6717057b09396-78kxxj.tmp
+[2024-10-22 01:52:59] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/feed/index.xml?simply_static_page=148
+[2024-10-22 01:52:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/feed/index.xml?simply_static_page=148
+[2024-10-22 01:52:59] [class-ss-url-fetcher.php:103] Filesize: 2171 bytes
+[2024-10-22 01:52:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/xml
+[2024-10-22 01:52:59] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.xml
+[2024-10-22 01:52:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6717057b09396-78kxxj.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729561903/feed/index.xml
+[2024-10-22 01:52:59] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-22 01:52:59] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-22 01:52:59] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-22 01:52:59] [class-ss-page.php:119] Checking Content Identical:37277329eb2e78e7e249e8f37e7e6fd158b162ca===. Value: FALSE
+[2024-10-22 01:52:59] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 35 of 41 pages/files
+[2024-10-22 01:52:59] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-22 01:53:03] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-22 01:53:03] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-22 01:53:03] [class-ss-fetch-urls-task.php:69] Total pages: 41; Pages remaining: 0
+[2024-10-22 01:53:03] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 41 of 41 pages/files
+[2024-10-22 01:53:03] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
+[2024-10-22 01:53:03] [class-ss-archive-creation-job.php:136] Current task: generate_404
+[2024-10-22 01:53:03] [class-ss-archive-creation-job.php:153] Performing task: generate_404
+[2024-10-22 01:53:03] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-10-22 01:53:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/6717057f7f0f9-1wxnyP.tmp
+[2024-10-22 01:53:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/adm_Freddy_Copa_Uyuni/1729561984?simply_static_page=0
+[2024-10-22 01:53:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/adm_Freddy_Copa_Uyuni/1729561984?simply_static_page=0
+[2024-10-22 01:53:08] [class-ss-url-fetcher.php:103] Filesize: 47042 bytes
+[2024-10-22 01:53:08] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-10-22 01:53:08] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-10-22 01:53:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/6717057f7f0f9-1wxnyP.tmp to C:\xampp\htdocs\adm_Freddy_Copa_Uyuni/wp-content/uploads\simply-static\temp-files/simply-static-1-1729561903\404/index.html
+[2024-10-22 01:53:08] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2024-10-22 01:53:09] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2024-10-22 01:53:09] [class-ss-page.php:119] Checking Content Identical:055c58770cfc0ec8f200506275fda92aa45ff6b8===. Value: FALSE
+[2024-10-22 01:53:09] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-10-22 01:53:09] [class-ss-archive-creation-job.php:175] We've found our next task: transfer_files_locally
+[2024-10-22 01:53:09] [class-ss-archive-creation-job.php:136] Current task: transfer_files_locally
+[2024-10-22 01:53:09] [class-ss-archive-creation-job.php:153] Performing task: transfer_files_locally
+[2024-10-22 01:53:09] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferring 38 of 38 files
+[2024-10-22 01:53:09] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/
+[2024-10-22 01:53:09] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/principal
+[2024-10-22 01:53:10] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/acerca-de-nosotros
+[2024-10-22 01:53:10] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/contactos
+[2024-10-22 01:53:10] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/servicios
+[2024-10-22 01:53:10] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/novedades
+[2024-10-22 01:53:10] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/2024/10/22/hola-mundo
+[2024-10-22 01:53:10] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-content/uploads/2024/10
+[2024-10-22 01:53:10] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-content/uploads/2024/10
+[2024-10-22 01:53:10] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-includes/js/jquery
+[2024-10-22 01:53:10] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-includes/js/jquery
+[2024-10-22 01:53:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-content/plugins/gutenify/core/assets/js/lib
+[2024-10-22 01:53:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-content/plugins/gutenify/core/assets/js/lib/scrollmagic
+[2024-10-22 01:53:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-includes/blocks/navigation
+[2024-10-22 01:53:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-includes/js/dist/vendor
+[2024-10-22 01:53:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-includes/js/dist/vendor
+[2024-10-22 01:53:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-includes/js/dist/vendor
+[2024-10-22 01:53:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-includes/js/dist
+[2024-10-22 01:53:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-includes/js/dist
+[2024-10-22 01:53:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-includes/js/dist
+[2024-10-22 01:53:12] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-content/plugins/gutenify/core/dist/non-blocks/frontend
+[2024-10-22 01:53:12] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-content/plugins/gutenify/core/dist/non-blocks/common-scripts/slider
+[2024-10-22 01:53:12] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/feed
+[2024-10-22 01:53:12] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/comments/feed
+[2024-10-22 01:53:12] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-includes/blocks/navigation
+[2024-10-22 01:53:12] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-content/themes/twentytwentytwo
+[2024-10-22 01:53:12] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-content/plugins/gutenify/core/assets/fontawesome/css
+[2024-10-22 01:53:12] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-content/fonts
+[2024-10-22 01:53:12] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-content/plugins/gutenify/core/dist/non-blocks/frontend
+[2024-10-22 01:53:12] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-json
+[2024-10-22 01:53:13] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-includes/js/dist
+[2024-10-22 01:53:13] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro
+[2024-10-22 01:53:13] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro
+[2024-10-22 01:53:13] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-json/wp/v2/pages
+[2024-10-22 01:53:13] [class-ss-transfer-files-locally-task.php:115] Cannot copy C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-content/uploads/simply-static/temp-files/simply-static-1-1729561903/wp-json/wp/v2/pages/23/index.html to C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-json/wp/v2/pages/23/index.html
+[2024-10-22 01:53:13] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-json/wp/v2/pages
+[2024-10-22 01:53:13] [class-ss-transfer-files-locally-task.php:115] Cannot copy C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-content/uploads/simply-static/temp-files/simply-static-1-1729561903/wp-json/wp/v2/pages/25/index.html to C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-json/wp/v2/pages/25/index.html
+[2024-10-22 01:53:13] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-json/wp/v2/pages
+[2024-10-22 01:53:13] [class-ss-transfer-files-locally-task.php:115] Cannot copy C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-content/uploads/simply-static/temp-files/simply-static-1-1729561903/wp-json/wp/v2/pages/27/index.html to C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-json/wp/v2/pages/27/index.html
+[2024-10-22 01:53:13] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-json/wp/v2/pages
+[2024-10-22 01:53:13] [class-ss-transfer-files-locally-task.php:115] Cannot copy C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-content/uploads/simply-static/temp-files/simply-static-1-1729561903/wp-json/wp/v2/pages/31/index.html to C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/wp-json/wp/v2/pages/31/index.html
+[2024-10-22 01:53:14] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/adm_Freddy_Copa_Uyuni/feed
+[2024-10-22 01:53:14] [class-ss-transfer-files-locally-task.php:73] [Transfer] Total Pages:38. Processed Pages: 38
+[2024-10-22 01:53:14] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 38 of 38 files
+[2024-10-22 01:53:14] [trait-can-process-pages.php:110] Total pages: 38; Pages remaining: 0
+[2024-10-22 01:53:14] [class-ss-transfer-files-locally-task.php:238] Transferring 404 Page
+[2024-10-22 01:53:14] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://modelbolivia.github.io/adm_Freddy_Copa_Uyuni/" target="_blank">https://modelbolivia.github.io/adm_Freddy_Copa_Uyuni/</a>
+[2024-10-22 01:53:14] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
+[2024-10-22 01:53:14] [class-ss-archive-creation-job.php:136] Current task: wrapup
+[2024-10-22 01:53:14] [class-ss-archive-creation-job.php:153] Performing task: wrapup
+[2024-10-22 01:53:14] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-10-22 01:53:14] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-10-22 01:53:14] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
+[2024-10-22 01:53:15] [class-ss-archive-creation-job.php:197] Completing the job
+[2024-10-22 01:53:15] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:01:32
